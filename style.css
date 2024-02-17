@@ -1,0 +1,32 @@
+.right-side{
+    position: fixed;
+    right: 0;
+    top:0;
+ background-color: rgb(219, 213, 213);
+    z-index: 1;
+    height: 100%;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.right-side button{
+    padding: 20px 40px;
+    font-weight: 850;
+    background-color: rgb(240, 118, 203);
+}
+.show{
+    background-color:rgb(58, 57, 57) ;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.show button{
+    padding: 20px 40px;
+    font-weight: 850;
+    background-color: rgb(145, 145, 233); 
+}
+.d-none{
+    display: none;
+}
